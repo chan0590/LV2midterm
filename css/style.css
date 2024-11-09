@@ -20,25 +20,11 @@
     font-size: 12px;
     z-index: 1000;
     border-radius: 10px;
-    pointer-events: none;
     transition: top 1s ease, opacity 1s ease, border-color 0.3s ease;
     border: 3px solid transparent;
 }
 
-/* @keyframes fadeInFromTop {
-    from {
-        top: -100px;
-        opacity: 0;
-    }
-
-    to {
-        top: 15px;
-        opacity: 1;
-    }
-} */
-
 .skip-link:focus {
-    pointer-events: auto;
     top: -8px;
     opacity: 1;
     background-color: white;
@@ -241,10 +227,6 @@ nav li {
     text-decoration: none;
 }
 
-/* .planets a:visited {
-    color: #006699;
-} */
-
 .planets > div {
     text-align: center;
 }
@@ -272,11 +254,6 @@ nav li {
     color: black;
     transform: scale(1.15);
 }
-
-/* .learn-more:visited {
-    background-color: #006699;
-    color: white;
-} */
 
 .footer {
     display: flex;
